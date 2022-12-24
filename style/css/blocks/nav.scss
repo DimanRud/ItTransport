@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+  min-height: 32px;
+  border-bottom: 1px solid #E1E3D6;
+}
+
+.nav__items {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.nav__menu {
+  min-width: 820px;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 82px;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.nav__menu-item .menu-item__dropdown {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
