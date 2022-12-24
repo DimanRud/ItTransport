@@ -20,6 +20,12 @@
     margin-left: 82px;
     padding: 0;
     width: 100%;
+
+  }
+
+  &-list li .nav__menu-item .dropdown:hover {
+    border-top: black;
+    border: 1px solid black;
   }
 }
 
