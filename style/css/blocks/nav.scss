@@ -2,6 +2,8 @@
   width: 100%;
   min-height: 32px;
   border-bottom: 1px solid #E1E3D6;
+  box-sizing: border-box;
+  display: block;
 }
 
 .nav__items {
@@ -23,11 +25,26 @@
 
   }
 
-  &-list li .nav__menu-item .dropdown:hover {
-    border-top: black;
-    border: 1px solid black;
-  }
+
 }
+
+li:hover {
+  border-top: black;
+  border: 1px solid black;
+}
+
+.nav__menu-item {
+border: 1px solid transparent;
+}
+.nav__menu-item:last-child {
+
+   &:hover {
+    border: none;
+    border: 1px solid transparent;
+   }
+}
+
+
 
 .nav__menu-item .menu-item__dropdown {
   font-family: 'Roboto', sans-serif;

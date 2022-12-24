@@ -14,13 +14,14 @@
     font-family: inherit;
     margin: 0;
 
-    .nav__dropdown a:hover,
-    .dropdown:hover .dropbtn,
-    .dropbtn:focus {
-      background-color: inherit;
-    }
-  }
 
+  }
+.nav__dropdown a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  background-color: inherit;
+  color: black;
+}
 
 .dropdown-content {
   display: none;
