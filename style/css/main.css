@@ -254,7 +254,7 @@ a {
 }
 
 .content__img {
-  background: url("/img/content.jpg");
+  background: url("img/content.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 226px;
@@ -314,7 +314,7 @@ a {
   margin-top: 68px;
 }
 .footer__wrap {
-  background-image: url(/img/group-503.png);
+  background-image: url(img/group-503.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
