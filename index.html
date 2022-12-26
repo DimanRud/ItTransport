@@ -62,36 +62,46 @@
             <div class="logo">
               <a href="#"><img src="img/icon/Logo.svg" alt="Home"></a>
             </div>
-
-            <nav class="nav__menu">
-              <ul class="nav__menu-list">
-                <li class="nav__menu-item">
-                  <a href="#">IT & TRANSPORT</a>
-                </li>
-                <li class="nav__menu-item nav__dropdown ">
-                  <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">Публикации <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content" id="myDropdown">
-                      <a href="#">Ссылка 1</a>
-                      <a href="#">Ссылка 2</a>
-                      <a href="#">Ссылка 3</a>
+            <div class="nav__wrap">
+              <nav class="nav__menu">
+                <ul class="nav__menu-list">
+                  <li class="nav__menu-item">
+                    <a href="#">IT & TRANSPORT</a>
+                  </li>
+                  <li class="nav__menu-item nav__dropdown ">
+                    <div class="dropdown">
+                      <button class="dropbtn" onclick="myFunction()">Публикации <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Ссылка 1</a>
+                        <a href="#">Ссылка 2</a>
+                        <a href="#">Ссылка 3</a>
+                      </div>
                     </div>
-                  </div>
-                </li>
-                <li class="nav__menu-item ">
-                  <div class="dropdown">
-                    <a href="#">Конкурс</a>
-                  </div>
-                </li>
-                <li class="nav__menu-item">
-                  <a href="#">Контакты</a>
-                </li>
-                <li class="nav__menu-item">
-                  <a href="#" class="right__btn">Вход</a>
-                </li>
-              </ul>
-            </nav>
+                  </li>
+                  <li class="nav__menu-item ">
+                    <div class="dropdown">
+                      <button class="dropbtn" onclick="myFunction()">Конкурс <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Ссылка 1</a>
+                        <a href="#">Ссылка 2</a>
+                        <a href="#">Ссылка 3</a>
+                        <a href="#">Ссылка 3</a>
+                        <a href="#">Ссылка 3</a>
+                        <a href="#">Ссылка 3</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav__menu-item">
+                    <a href="#">Контакты</a>
+                  </li>
+                  <li class="nav__menu-item nav__menu-enter">
+                    <a href="#" class="right__btn">Вход</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -135,10 +145,10 @@
               <div class="info__jopa">
                 <h1 class="info__title">
 
-              <a href="#" class="title">Опубликован 13 выпуск сборника научных статей «IT & Транспорт» за 2021
-                год.</a>
-              </h1>
-            </div>
+                  <a href="#" class="title">Опубликован 13 выпуск сборника научных статей «IT & Транспорт» за 2021
+                    год.</a>
+                </h1>
+              </div>
               <p class="info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At laboriosam ullam
                 repudiandae sunt saepe tenetur nihil, accusamus aspernatur ipsum minima aut sed cupiditate rem incidunt
                 nostrum perferendis natus nulla Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sequi
@@ -267,11 +277,59 @@
       </div>
     </section>
     <section class="footer">
-     <div class="footer__wrap">
-      <div class="conteiner">
+      <div class="footer__wrap">
+        <div class="container">
+          <div class="footer__items">
 
+            <div class="footer__logo logo">
+              <a href="#"><img src="img/icon/Logo2.svg" alt="Home"></a>
+            </div>
+            <div class="footer__item">
+              <ul class="footer__list">
+                <li class="footer__list-item"> <a href="#">Положение о конкурсе</a> </li>
+                <li class="footer__list-item"> <a href="#">Положение о конкурсной комиссии</a>
+                </li>
+                <li class="footer__list-item"><a href="#">Качественные критерии</a>
+                </li>
+                <li class="footer__list-item"><a href="#">Требования к работам</a>
+                </li>
+                <li class="footer__list-item"><a href="#">Победители</a>
+                </li>
+                <li class="footer__list-item"><a href="#">Список конкурсов</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__contacts">
+              <ul class="footer__list contacts">
+                <li class="footer__list-item contact__item"><a href="#">
+                    <span class="footer__list-icon"><img class="map" src="/img/icon/map.svg" alt="map"></span>
+                    <span>Самара, ул. Ново-Садовая 106л, к.1</span>
+                  </a>
+                </li>
+                <li class="footer__list-item contact__item"><a href="#">
+                    <span class="footer__list-icon">
+                      <img class="mail" src="/img/icon/mail.svg" alt="mail">
+                    </span>
+                    <span>info@its-spc.ru
+                    </span>
+                  </a>
+                </li>
+                <li class="footer__list-item"><a href="#">
+                    <span class="footer__list-icon"><img class="phone footer__phone" src="/img/icon/phone.svg"
+                        alt="phone">
+                    </span>
+                    <span>+7 (939) 715-43-71
+                    </span>
+                  </a>
+                </li>
+
+              </ul>
+              <a href="#" class="footer__btn btn">Обратная связь</a>
+            </div>
+
+          </div>
+        </div>
       </div>
-     </div>
     </section>
   </div>
   <script src="./js/dropdown.js"></script>

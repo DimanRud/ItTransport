@@ -16,6 +16,7 @@
 .nav__menu {
   min-width: 820px;
 
+
   &-list {
     display: flex;
     justify-content: space-between;
@@ -28,21 +29,21 @@
 
 }
 
-li:hover {
-  border-top: black;
-  border: 1px solid black;
-}
 
 .nav__menu-item {
-border: 1px solid transparent;
-}
-.nav__menu-item:last-child {
+  border: 1px solid transparent;
+  padding: 12px 6px;
 
-   &:hover {
-    border: none;
+  &:hover {
     border: 1px solid transparent;
-   }
+    border: 1px solid #008B8B;
+  }
 }
+
+.nav__menu-item:last-child:hover {
+  border: 1px solid transparent;
+}
+
 
 
 
