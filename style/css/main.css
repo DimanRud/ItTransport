@@ -349,10 +349,6 @@ li:hover {
   display: block;
 }
 
-.footer__wrap {
-  background-image: url("/img/merge_from_ofoct.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 562px;
-  width: 100%;
+.footer {
+  margin-top: 68px;
 }
