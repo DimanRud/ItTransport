@@ -245,6 +245,8 @@ li:hover {
 
 .content__img {
   background: url("/img/content.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 226px;
   width: 346px;
 }
@@ -345,4 +347,12 @@ li:hover {
 
 .show {
   display: block;
+}
+
+.footer__wrap {
+  background-image: url("/img/merge_from_ofoct.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 562px;
+  width: 100%;
 }
