@@ -164,8 +164,13 @@ a {
   width: 100%;
 }
 
-.nav__menu-item:last-child:hover {
-  border: 1px solid transparent;
+.nav__menu-enter::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
 }
 
 .nav__menu-item .menu-item__dropdown {
@@ -254,7 +259,7 @@ a {
 }
 
 .content__img {
-  background: url("img/content.jpg");
+  background: url("/img/content.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 226px;
@@ -314,7 +319,7 @@ a {
   margin-top: 68px;
 }
 .footer__wrap {
-  background-image: url(img/group-503.png);
+  background-image: url(/img/group-503.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
